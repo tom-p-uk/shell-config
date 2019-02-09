@@ -1,4 +1,4 @@
-export ZSH="/Users/tom.price/.oh-my-zsh"
+export ZSH="/Users/$(id -un)/.oh-my-zsh"
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 ZSH_THEME="mh"
@@ -14,7 +14,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias srcz="source ~/.zshrc"

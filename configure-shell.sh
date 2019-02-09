@@ -22,6 +22,6 @@ cd ~/.oh-my-zsh && git clone git@github.com:zsh-users/zsh-syntax-highlighting.gi
 echo "Installing Z"
 brew install z
 cp .zshrc ~/
-cp dirhistory.plugin.zsh /Users/tom.price/.oh-my-zsh/plugins/dirhistory  
-cp iterm2_profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
+cp dirhistory.plugin.zsh /Users/$(id -un)/.oh-my-zsh/plugins/dirhistory  
+cp iterm2-profiles.json ~/Library/Application\ Support/iTerm2/DynamicProfiles
 echo "Set up complete"
